@@ -1,0 +1,30 @@
+# FindA Application Settings
+user:
+  name: "User"
+  default_search_type: "face"  # face or name
+  max_results: 50
+  enable_notifications: true
+  dark_mode: true
+
+search:
+  similarity_threshold: 0.85
+  max_threads: 8
+  cache_results: true
+  cache_duration: 7  # days
+
+privacy:
+  auto_delete_data: true
+  delete_after_days: 1
+  encrypt_sensitive_data: false
+
+captcha:
+  service: "2captcha"  
+  api_key: "49ff1de8038011dde21109162abcd458" 
+  service: "anti_captcha"  
+  api_key: "a0637d7433cf7282b7a8a9add79b9d34" 
+
+logging:
+  level: "info"  # debug, info, warning, error
+  max_log_files: 5
+  max_log_size: 10  # MB
+  
