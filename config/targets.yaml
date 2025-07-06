@@ -1,0 +1,44 @@
+# Platforms for image-based search
+image_search_targets:
+  - "google"
+  - "facebook"
+  - "instagram"
+  - "twitter"
+  - "linkedin"
+  - "tiktok"
+  - "yandex"
+  - "tineye"
+
+# Platforms for name-based search
+name_search_targets:
+  - "facebook"
+  - "instagram"
+  - "twitter"
+  - "linkedin"
+  - "tiktok"
+  - "vk"
+  - "telegram"
+  - "whatsapp"
+
+# Platform-specific configurations
+platform_settings:
+  google:
+    max_results: 20
+    safe_search: true
+  facebook:
+    require_login: true
+  instagram:
+    require_login: true
+    max_results: 15
+  twitter:
+    include_retweets: false
+  linkedin:
+    strict_match: true
+
+# Proxy configuration
+proxies:
+  enabled: false
+  rotation_interval: 10  # minutes
+  sources:
+    - "internal"
+    - "external"
