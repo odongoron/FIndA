@@ -1,0 +1,9 @@
+proxies:
+  - ip: "123.123.123.123"
+    port: 8080
+    username: "user1"
+    password: "pass1"
+  - ip: "124.124.124.124"
+    port: 8080
+    username: "user2"
+    password: "pass2"
