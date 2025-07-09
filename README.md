@@ -38,21 +38,24 @@ A desktop application that lets you drop a face image or enter a name, then sear
 
 1. Clone the repo
 
-```
+ ```
 git clone https://github.com/your-username/FindA.git
-cd FindA```
+cd FindA
+ ```
 
 2. Create and activate a virtual environment
 
-```
+ ```
 python -m venv venv
 source venv/bin/activate    # macOS/Linux
-venv\Scripts\activate       # Windows ```
+venv\Scripts\activate       # Windows 
+ ```
 
 3. Install dependencies
 
-```pip install -r requirements.txt ```
-
+	```
+	pip install -r requirements.txt
+	```
 
 4. Copy and tweak config/targets.yaml and config/proxies.yaml as needed.
 
