@@ -1,5 +1,5 @@
-# 			FindA
-# A Social Media Reverse-Image & Name Finder
+# FindA
+## A Social Media Reverse-Image & Name Finder
 
 A desktop application that lets you drop a face image or enter a name, then searches multiple social platforms (Google, Facebook, Instagram, Twitter, etc.) to find matching profiles using a mix of web scraping, face-recognition embeddings and perceptual hashing.
 
