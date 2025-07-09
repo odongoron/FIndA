@@ -111,13 +111,13 @@ FindA/
 
 ## Version Control & Collaboration
 
-    Commits: small, frequent, descriptive messages
+ Commits: small, frequent, descriptive messages
 
-    Branches: feature branches (feature/image-search), PRs for merges
+ Branches: feature branches (feature/image-search), PRs for merges
 
-    Pull Requests: review & CI checks before merging to main
+ Pull Requests: review & CI checks before merging to main
 
-    Tags/Releases: use annotated tags for v1.0, v1.1, etc.
+ Tags/Releases: use annotated tags for v1.0, v1.1, etc.
 
 
 
@@ -127,11 +127,9 @@ MIT License
 
 ## Acknowledgements
 
-    InsightFace team for face-recognition models
+ InsightFace team for face-recognition models
 
-    Selenium & WebDriver-manager maintainers
+ Selenium & WebDriver-manager maintainers
 
-    PyQt5 community
-
-
+ PyQt5 community
 
