@@ -1,0 +1,111 @@
+# Byte-compiled / optimized / DLL Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+env/
+venv/
+.repo/
+.repo-lib/
+.repo-env/
+.vscode/
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Jupyter and PyQt artifacts
+.ipynb_checkpoints
+*.qrc
+*.ui
+
+# Logs
+*.log
+*.out
+*.err
+
+# ONNX / InsightFace cache models
+*.onnx
+models/
+insightface/
+.insightface/
+*.cache
+
+# Image files and outputs
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.webp
+*.pdf
+*.svg
+*.mp4
+*.avi
+*.mov
+screenshots/
+output_images/
+
+# Selenium downloaded drivers (e.g. ChromeDriverManager)
+.wdm/
+
+# Compiled Python modules
+*.so
+
+# pip, setuptools & wheel build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+
+# Test result cache
+.cache/
+.noseids
+
+# Pytest
+.pytest_cache/
+__snapshots__/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# YAML configurations with secrets
+*.yaml
+*.yml
+!config/targets.yaml
+!config/proxies.yaml
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+*.orig
+
+# Misc
+*.db
+*.sqlite3
+*.log
+*.pid
+*.gz
+*.zip
+
+# User uploads or temp data
+uploads/
+temp/
+temp_images/
+
