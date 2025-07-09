@@ -27,7 +27,7 @@ A desktop application that lets you drop a face image or enter a name, then sear
 - Chrome or Chromium browser installed  
 - Python 3.10+ and pip  
 - Environment variables set:
-  ```bash
+  ```
   export FACEBOOK_USER="your_fb_email"
   export FACEBOOK_PASS="your_fb_pass"
   export INSTAGRAM_USER="your_ig_user"
