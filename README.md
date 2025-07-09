@@ -31,54 +31,57 @@ A desktop application that lets you drop a face image or enter a name, then sear
   export FACEBOOK_USER="your_fb_email"
   export FACEBOOK_PASS="your_fb_pass"
   export INSTAGRAM_USER="your_ig_user"
-  export INSTAGRAM_PASS="your_ig_pass"
-```
+  export INSTAGRAM_PASS="your_ig_pass" 
+  ```
 
 ## Installation
 
 1. Clone the repo
+
 ```
 git clone https://github.com/your-username/FindA.git
-cd FindA
-```
+cd FindA```
+
 2. Create and activate a virtual environment
+
 ```
 python -m venv venv
 source venv/bin/activate    # macOS/Linux
-venv\Scripts\activate       # Windows
-```
+venv\Scripts\activate       # Windows ```
 
 3. Install dependencies
-```
-pip install -r requirements.txt
-```
+
+```pip install -r requirements.txt ```
+
 
 4. Copy and tweak config/targets.yaml and config/proxies.yaml as needed.
 
+
 ## Configuration
 
-*Targets: edit config/targets.yaml to enable/disable platforms or proxies
+- Targets: edit config/targets.yaml to enable/disable platforms or proxies
 
-*Proxies: list real proxies in config/proxies.yaml & toggle proxies.enabled
+- Proxies: list real proxies in config/proxies.yaml & toggle proxies.enabled
 
-*Face models: default InsightFace models download to ~/.insightface/models/
+- Face models: default InsightFace models download to ~/.insightface/models/
 
 ## Usage
 
 1. Launch the app:
-```
-python main.py
 
-```
+```python main.py ```
+
+
 2. In the GUI:
 
-        Face Search: click “Browse Image,” select a photo, then “Start Face Search.”
+ Face Search: click “Browse Image,” select a photo, then “Start Face Search.”
 
-        Name Search: enter a full name, click “Search by Name.”
+ Name Search: enter a full name, click “Search by Name.”
 
 3. View and export results from the list panel.
 
 ## Project Structure
+
 ```
 FindA/
 ├── app.py
@@ -104,7 +107,6 @@ FindA/
 │   └── search_tabs.py
 ├── requirements.txt
 └── README.md
-
 ```
 
 ## Version Control & Collaboration
